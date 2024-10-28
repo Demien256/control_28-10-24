@@ -55,3 +55,16 @@ sudo apt-get install mysql-server
 Проверяем результат установки:
 
 systemctl status mysql
+
+### 4. Установить и удалить deb-пакет с помощью dpkg.
+
+
+Устанавливаем пакет mysql-connector-j_8.0.32-1ubuntu22.04_all.deb:
+
+sudo dpkg - i mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+
+Удаляем пакет и его сопутствующие пакеты:
+
+sudo dpkg -r mysql-connector-j
+
+sudo apt-get autoremove
