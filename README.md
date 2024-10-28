@@ -68,3 +68,9 @@ sudo dpkg - i mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
 sudo dpkg -r mysql-connector-j
 
 sudo apt-get autoremove
+
+### 5. Выложить историю команд в терминале ubuntu.
+
+Для получения истории введенных команд в терминале ubuntu используем:
+
+history
